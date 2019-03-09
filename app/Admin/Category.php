@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    //conntect to table category from mr black
+    //conntect to table category from mr blackfdsafdsafdjsakfj dsa;fjdsakfjdsakfjds
     protected $table = "categories";
 
 
