@@ -9,6 +9,7 @@ class Category extends Model
     //conntect to table category from mr blackfdsafdsafdjsakfj dsa;fjdsakfjdsakfjds
     //fdsafdsafdsafdsafdsfd
     protected $table = "categories";
+    //welcome
 
 
     public function product(){
