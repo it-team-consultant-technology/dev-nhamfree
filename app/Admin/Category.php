@@ -8,7 +8,7 @@ class Category extends Model
 {
     //conntect to table category from mr blackfdsafdsafdjsakfj dsa;fjdsakfjdsakfjds
     protected $table = "categories";
-
+    //welcome for our
 
     public function product(){
     	return $this->hasMany(\App\Admin\Product::class);
