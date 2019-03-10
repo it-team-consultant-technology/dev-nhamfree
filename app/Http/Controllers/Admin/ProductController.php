@@ -10,7 +10,8 @@ use App\Admin\Category;
 use Illuminate\Support\Str;
 class ProductController extends Controller
 {
-    //
+    //controller create product
+    //controller product category
     public function productList(Request $req){
     	$products = Product::where(['product_status'=> 1])->orderBy('product_name')->get();
     	return view('product.product_list', compact('products'));
