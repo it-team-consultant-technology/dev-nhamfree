@@ -9,7 +9,11 @@ class SupplierController extends Controller
 {
     //
 
-    public function studentList(){
+    public function supplierList(){
     	return "student List";
+    }
+
+    public function createSupplier(Request $req){
+    	return 'student form';
     }
 }
