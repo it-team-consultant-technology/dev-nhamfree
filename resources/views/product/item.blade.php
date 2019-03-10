@@ -5,7 +5,7 @@
 			<div class="card-body">
 			    <h6 class="card-title">{{$product->title}}</h6>
 			    <p class="card-text">Some quick.</p>
-			    <a href="#" class="btn btn-outline-">Go somewhere</a>
+			    <a href="#" class="btn btn-outline-success btn-sm">Go somewhere</a>
 			</div>
 		</div>
 	</div>
