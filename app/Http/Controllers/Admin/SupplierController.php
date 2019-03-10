@@ -13,6 +13,9 @@ class SupplierController extends Controller
     	return "student List";
     }
     public function supplier(){
-    	return "supplierForm";
+    	return "New supplier Form";
     }
+
+
+
 }
