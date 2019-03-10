@@ -25,5 +25,9 @@ class SupplierController extends Controller
         return "delete supplier ";
     }
 
+    public function Test(){
+        return "Test ";
+    }
+
 
 }
