@@ -26,7 +26,7 @@
             <a class="dropdown-item" href="#">Something else here</a>
             <div class="dropdown-divider"></div>    
             <div class="col">
-              <a class=" pull-left" href="#" >Regiter</a>
+              <a class=" pull-left" href="#" >Register</a>
               <a class=" pull-right" href="#" >Login</a>
             </div>
   <!-- </div> -->

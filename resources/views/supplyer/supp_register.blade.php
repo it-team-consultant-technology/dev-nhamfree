@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 
-	<div class="row">
+	<div class="row" style="background-color: #6C3483; color: white;">
 	    <div class="col-sm-4">
 		    <center><h2>Login</h2></center>
 			<form class="form-horizontal" action="#">
