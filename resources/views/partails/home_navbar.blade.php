@@ -31,7 +31,7 @@
               <a class=" pull-right" href="{{route('login')}}" >Login</a>
             </div>
             @else
-              <a class="dropdown-item" href="#">View Profile</a>
+              <a class="dropdown-item" href="">View Profile</a>
             @endif
   <!-- </div> -->
         </div>
