@@ -5,15 +5,15 @@
     <a class="navbar-brand" href="#"></a>
   <ul class="nav nav-pills">
     <li class="nav-item">
+
       <a class="nav-link" href="#fat">@fat</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#mdo">@mdo</a>
-      <a class="nav-link" href="#cust">Customer</a>
+
+     
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#supp">Supplyer</a>
-    </li>
+   
     <li class=" dropdown ">
       <div class="btn-group">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
