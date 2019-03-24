@@ -20,7 +20,6 @@ Route::get('/', function () {
     
 });
 
-
 Route::get('product', "Admin\ProductController@productList")->name('productList');
 Route::get('product/add', "Admin\ProductController@productForm")->name('productForm');
 Route::post('product/add', "Admin\ProductController@createProduct")->name('createProduct');
@@ -55,9 +54,9 @@ Route::get('profile', "Admin\ProfileController@user")->name('profile');
 //     });
 // });
 
-Route::domain('{account}.localhost')->group(function () {
-    Route::get('', function ($account) {
-        //
-        return $account;
-    });
-});
+// Route::domain('{account}.localhost')->group(function () {
+//     Route::get('', function ($account) {
+//         //
+//         return $account;
+//     });
+// });
