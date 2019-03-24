@@ -10,18 +10,18 @@ class SupplierController extends Controller
     //
     public function Supplier(){
 
-        return view('supplyer.supplier');
+        return view('supplier.supplier');
 
     } 
 
     public function supplierRegister(){
 
-        return view('supplyer.supp_register');
+        return view('supplier.supplier_register');
 
     } 
     public function supplierLogin(){
 
-        return view('supplyer.supp_login');
+        return view('supplier.supplier_login');
 
     }
 
