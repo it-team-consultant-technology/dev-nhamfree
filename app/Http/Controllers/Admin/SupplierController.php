@@ -8,26 +8,24 @@ use App\Http\Controllers\Controller;
 class SupplierController extends Controller
 {
     //
+    public function Supplier(){
 
-    public function supplierList(){
-    	return "student List";
+        return view('supplyer.supplier');
+
+    } 
+
+    public function supplierRegister(){
+
+        return view('supplyer.supp_register');
+
+    } 
+    public function supplierLogin(){
+
+        return view('supplyer.supp_login');
+
     }
+
     
-    public function supplier(){
-    	return "New supplier Form";
-    }
-
-    public function updateSupplier(){
-    	return "update supplier ";
-    }
-
-    public function deleteSupplier(){
-        return "delete supplier ";
-    }
-
-    public function Test(){
-        return "Test ";
-    }
 
 
 }

@@ -24,8 +24,18 @@ Route::get('/', function () {
 Route::get('product', "Admin\ProductController@productList")->name('productList');
 Route::get('product/add', "Admin\ProductController@productForm")->name('productForm');
 Route::post('product/add', "Admin\ProductController@createProduct")->name('createProduct');
+//Supplyer
+Route::get('supplier', "Admin\SupplierController@Supplier")->name('supplier');
+Route::get('supp_register', "Admin\SupplierController@supplierRegister")->name('register');
+Route::get('supp_login', "Admin\SupplierController@supplierLogin")->name('login');
+
+//Profile User
+Route::get('profile', "Admin\ProfileController@user")->name('profile');
 
 
+// Route::get('foo', function () {
+//     return 'Hello World';
+// });
 
 // Route::domain('{account}.localhost:8000')->group(function () {
 //     Route::get('user', function ($account) {

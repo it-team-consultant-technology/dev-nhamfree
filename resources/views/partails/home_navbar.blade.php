@@ -9,6 +9,10 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#mdo">@mdo</a>
+      <a class="nav-link" href="#cust">Customer</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#supp">Supplyer</a>
     </li>
     <li class=" dropdown ">
       <div class="btn-group">
