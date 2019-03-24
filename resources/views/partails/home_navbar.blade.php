@@ -1,22 +1,35 @@
 
-<nav class="navbar navbar-light" style="background-color: #563d7c;">
-  <div class="collapse " id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<!-- <nav class="" style="background-color: #563d7c;"> -->
+  <nav class="navbar" style="background-color: #563d7c;     padding: 0px;">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#fat">@fat</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#mdo">@mdo</a>
+    </li>
+    <li class=" dropdown ">
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-lg-right">
+          <!-- <div class="dropdown-menu"> -->
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>    
+            <div class="col">
+              <a class=" pull-left" href="#" >Regiter</a>
+              <a class=" pull-right" href="#" >Login</a>
+            </div>
+  <!-- </div> -->
+        </div>
+      </div>
+    </li>
+  </ul>
   </div>
 </nav>
 
