@@ -8,47 +8,62 @@
 		<div class="row">
 		    <div class="col-sm-9" style="margin: auto; color: white">
 			    <center><h2>Register Form</h2></center>
-				<form class="form-horizontal" action="#">
-					<div class="form-group">
-				      <label class="control-label col-sm-2" for="email">Username:</label>
-				      <div class="col-sm-10">
-				        <input type="email" class="form-control" id="unser" placeholder="Enter Username" name="user">
+			    <form class="form-row">
+			    	<div class="col-md-6 mb-3">
+				      <label for="validationServer01">First name*</label>
+				      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First Name!" required>
+				      <div class="valid-feedback">
+				        Nham!
 				      </div>
 				    </div>
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="email">Email:</label>
-				      <div class="col-sm-10">
-				        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationServer01">Last name*</label>
+				      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Last Name!" required>
+				      <div class="valid-feedback">
+				        Free!
 				      </div>
 				    </div>
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="pwd">Password:</label>
-				      <div class="col-sm-10">          
-				        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Your Email*</label>
+				      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Enter Your Email!" required>
+				      <div class="valid-feedback">
+				        Example: nhamfree2019@gmail.com!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <div class="checkbox">
-				          <label><input type="radio" name="remember"> I am a customer</label>
-				        </div>
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Password*</label>
+				      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Enter Password!" required>
+				      <div class="valid-feedback">
+				        Long Than 6 Characters!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <div class="checkbox">
-				          <label><input type="radio" name="remember"> I am a vendor</label>
-				        </div>
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Phone Number*</label>
+				      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Enter Phone Number!" required>
+				      <div class="valid-feedback">
+				        +855(0)88 2222 999!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <button type="submit" class="btn btn-success">Register</button>
-				      </div>
+
+				    <div class="col-md-12 mb-3" style="text-align: center;">
+				      <label for="validationServer01">Gender*</label>	      
+				        <label class="col-sm-3">
+				        	<input type="radio" name="remember"> Male
+				        </label>
+				        <label>
+				        	<input type="radio" name="remember"> Felmale
+				        </label>				      
 				    </div>
-				</form>
+
+				    <div class="col-md-12 mb-3" style="text-align: center;">
+				      <button type="submit" class="btn btn-primary btn-md">Register</button>
+				      <button type="submit" class="btn btn-secondary btn-md">Cancel</button>
+				    </div>
+			    </form>
 		    </div>
-		    
 		</div>
 	</div>
+	</br>
+	<div class="jumbotron">Form Register</div>
 @endsection
