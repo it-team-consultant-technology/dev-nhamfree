@@ -3,81 +3,70 @@
 
 @section('content')
 	@include('partails.home_navbar')
-	<div class="jumbotron">dfasfd</div>
-	<div class="container">
+	<div class="jumbotron">Form Register</div>
+
+	@include('include.message')
+	<div class="container" style="margin: auto; background-color: #6C3483">
 		<div class="row">
-		    <div class="col-sm-4">
-			    <center><h2>Login</h2></center>
-				<form class="form-horizontal" action="#">
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="email">Email:</label>
-				      <div class="col-sm-10">
-				        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-				      </div>
-				    </div>
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="pwd">Password:</label>
-				      <div class="col-sm-10">          
-				        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-				      </div>
-				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <div class="checkbox">
-				          <label><input type="checkbox" name="remember"> Remember me</label>
-				        </div>
-				      </div>
-				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <button type="submit" class="btn btn-success">Submit</button>
-				      </div>
-				    </div>
-				</form>
-		    </div>
-		    <div class="col-sm-8">
+		    <div class="col-sm-9" style="margin: auto; color: white">
 			    <center><h2>Register Form</h2></center>
-				<form class="form-horizontal" action="#">
-					<div class="form-group">
-				      <label class="control-label col-sm-2" for="email">Username:</label>
-				      <div class="col-sm-10">
-				        <input type="email" class="form-control" id="unser" placeholder="Enter Username" name="user">
+			    <form class="form-row" action="{{route('createSupplier')}}" method="POST">
+			    	{{csrf_field()}}
+			    	<div class="col-md-6 mb-3">
+				      <label for="validationServer01">First name*</label>
+				      <input type="text" class="form-control is-valid" name="fist_name" placeholder="First Name!" required>
+				      <div class="valid-feedback">
+				        Nham!
 				      </div>
 				    </div>
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="email">Email:</label>
-				      <div class="col-sm-10">
-				        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationServer01">Last name*</label>
+				      <input type="text" name="last_name" class="form-control is-valid" placeholder="Last Name!" required>
+				      <div class="valid-feedback">
+				        Free!
 				      </div>
 				    </div>
-				    <div class="form-group">
-				      <label class="control-label col-sm-2" for="pwd">Password:</label>
-				      <div class="col-sm-10">          
-				        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Your Email*</label>
+				      <input type="email" class="form-control is-valid" name="email" placeholder="Enter Your Email!" required>
+				      <div class="valid-feedback">
+				        Example: nhamfree2019@gmail.com!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <div class="checkbox">
-				          <label><input type="radio" name="remember"> I am a customer</label>
-				        </div>
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Password*</label>
+				      <input type="password" class="form-control is-valid" name="password" placeholder="Enter Password!" required>
+				      <div class="valid-feedback">
+				        Long Than 6 Characters!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <div class="checkbox">
-				          <label><input type="radio" name="remember"> I am a vendor</label>
-				        </div>
+				    <div class="col-md-12 mb-3">
+				      <label for="validationServer01">Phone Number*</label>
+				      <input type="text" class="form-control is-valid" name="phone" placeholder="Enter Phone Number!" required>
+				      <div class="valid-feedback">
+				        +855(0)88 2222 999!
 				      </div>
 				    </div>
-				    <div class="form-group">        
-				      <div class="col-sm-offset-2 col-sm-10">
-				        <button type="submit" class="btn btn-success">Register</button>
-				      </div>
+
+				    <div class="col-md-12 mb-3" style="text-align: center;">
+				      <label for="validationServer01">Gender*</label>	      
+				        <label class="col-sm-3">
+				        	<input type="radio" name="gender"> Male
+				        </label>
+				        <label>
+				        	<input type="radio" name="gender"> Felmale
+				        </label>				      
 				    </div>
-				</form>
+
+				    <div class="col-md-12 mb-3" style="text-align: center;">
+				      <button type="submit" class="btn btn-primary btn-md">Register</button>
+				      <button type="submit" class="btn btn-secondary btn-md">Cancel</button>
+				    </div>
+			    </form>
 		    </div>
-		    
 		</div>
 	</div>
+	</br>
+	<div class="jumbotron">Form Register</div>
 @endsection

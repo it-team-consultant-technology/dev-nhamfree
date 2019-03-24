@@ -26,6 +26,9 @@ Route::post('product/add', "Admin\ProductController@createProduct")->name('creat
 //Supplyer
 Route::get('supplier', "Admin\SupplierController@Supplier")->name('supplier');
 Route::get('register', "Admin\SupplierController@supplierRegister")->name('register');
+Route::post("register", "Admin\SupplierController@createSupplier")->name('createSupplier');
+
+
 Route::get('login', "Admin\SupplierController@supplierLogin")->name('login');
 
 //Profile User

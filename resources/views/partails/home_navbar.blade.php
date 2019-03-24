@@ -25,17 +25,13 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
             <div class="dropdown-divider"></div>    
-            @if(!Auth::check()))
+            @if(!Auth::check())
             <div class="col">
-
-              <a class=" pull-left" href="#" >Register</a>
-              <a class=" pull-right" href="#" >Login</a>
-
               <a class=" pull-left" href="{{route('register')}}" >Register</a>
               <a class=" pull-right" href="{{route('login')}}" >Login</a>
             </div>
             @else
-              <a class="dropdown-item" href="#">View Profile</a>
+              <a class="dropdown-item" href="">View Profile</a>
             @endif
   <!-- </div> -->
         </div>
