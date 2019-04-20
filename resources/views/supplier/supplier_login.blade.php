@@ -4,6 +4,7 @@
 @section('content')
 	@include('partails.home_navbar')
 	<div class="jumbotron">Form Register</div>
+	@include('include.message')
 	<div class="container" style="margin: auto;">
 		<div class="row">
 		    <div class="col-sm-9" style="margin: auto; color: white;background-color: #6C3483">
