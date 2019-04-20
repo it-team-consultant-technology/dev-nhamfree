@@ -8,7 +8,7 @@
 	input[type]:hover{
 		box-shadow: 0 0 0 1px #e9ecef;
 	}
-</style>
+</style>dd
 
 @include('partails.home_navbar');
 <div class="container">
