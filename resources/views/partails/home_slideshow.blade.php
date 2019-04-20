@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-7">
+  <div class="col-8">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -8,13 +8,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-             <img src="https://nham24.com/assets/images/sponsor3.png" class="d-block w-100" alt="...">
+             <img src="https://i.alicdn.com/img/tfs/TB1NU8oN6DpK1RjSZFrXXa78VXa-990-400.jpg" >
           </div>
           <div class="carousel-item">
-            <img src="https://nham24.com/assets/images/sponsor4.png" class="d-block w-100" alt="...">
+            <img src="https://i.alicdn.com/img/tfs/TB1SDk.OVzqK1RjSZFCXXbbxVXa-990-400.jpg" >
           </div>
           <div class="carousel-item">
-            <img src="https://nham24.com/assets/images/sponsor5.png" class="d-block w-100" alt="...">
+            <img src="https://i.alicdn.com/img/tfs/TB1To4DPmzqK1RjSZFpXXakSXXa-990-400.jpg_q80.jpg" >
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -27,8 +27,7 @@
         </a>
     </div>
   </div>
-
-  <div class="col-4 ">
+  <div class="col-3 ">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

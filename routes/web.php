@@ -52,15 +52,14 @@ Route::get('profile', "Admin\ProfileController@user")->name('profile');
 //     });
 // });
 
-// Route::group(['admin' => , function () {
-//     Route::get('user/{id}', function ($account, $id) {
+Route::prefix('admin')->group(function () {
+    Route::get("/", "Admin\AdminController@index")->name('admin');
+  
+});
+
+// Route::domain('{account}.localhost')->group(function () {
+//     Route::get('', function ($account) {
+//         //
 //         return $account;
 //     });
 // });
-
-Route::domain('{account}.localhost')->group(function () {
-    Route::get('', function ($account) {
-        //
-        return $account;
-    });
-});
