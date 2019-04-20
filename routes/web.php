@@ -35,16 +35,12 @@ Route::get('login', "Admin\SupplierController@supplierLogin")->name('login');
 //Profile User
 Route::get('profile', "Admin\ProfileController@user")->name('profile');
 
+//Insert Form
+Route::get('insert', "Admin\ProductController@Insert")->name('insert_frm');
 
-// Route::get('foo', function () {
-//     return 'Hello World';
-// });
+Route::post('insert', "Admin\ProductController@insertAdd")->name('insertAdd');
 
-// Route::domain('{account}.localhost:8000')->group(function () {
-//     Route::get('user', function ($account) {
-//         return $account;
-//     });
-// });
+Route::get('select', "Admin\ProductController@selectList")->name('selectList');
 
 // Route::group(['domain' => 'admin.localhost:8000'], function () {
 //     Route::get('user', function ($account) {
