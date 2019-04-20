@@ -20,7 +20,6 @@ Route::get('/', function () {
     
 });
 
-
 Route::get('product', "Admin\ProductController@productList")->name('productList');
 Route::get('product/add', "Admin\ProductController@productForm")->name('productForm');
 Route::post('product/add', "Admin\ProductController@createProduct")->name('createProduct');
@@ -62,4 +61,14 @@ Route::prefix('admin')->group(function () {
 //         //
 //         return $account;
 //     });
-// });
+// <<<<<<< HEAD
+// =======
+// // });
+
+// // Route::domain('{account}.localhost')->group(function () {
+// //     Route::get('', function ($account) {
+// //         //
+// //         return $account;
+// //     });
+// >>>>>>> b953c72ccc41e162d77de99ca04009cd757b86b2
+// // });
