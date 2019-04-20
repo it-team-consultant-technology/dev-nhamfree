@@ -18,7 +18,6 @@ class SupplierController extends Controller
     } 
 
     public function createSupplier(Request $req){
-
         $addUser = new User;
         $addUser->first_name = $req->first_name;
         $addUser->last_name  = $req->last_name;
